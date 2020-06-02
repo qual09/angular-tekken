@@ -10,7 +10,12 @@ button {
 
 button:hover {
     border: 1px solid black;
+    cursor: pointer;
     opacity: 0.9;
+}
+
+button:disabled {
+    cursor: initial;
 }
 
 h1, h2, h3, h4, h5 {
