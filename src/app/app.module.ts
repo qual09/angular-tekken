@@ -6,12 +6,14 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { CharacterSelectComponent } from './components/character-select/character-select.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    CharacterSelectComponent
+    CharacterSelectComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule, FormsModule,
