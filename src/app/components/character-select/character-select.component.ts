@@ -20,8 +20,6 @@ export class CharacterSelectComponent implements OnInit {
 
   ngOnInit(): void {
     this.currentPlayer = 'player1';
-    this.character1temp = 'player1';
-    this.character2temp = 'player2';
   }
 
   select(character: string) {
@@ -65,6 +63,41 @@ export class CharacterSelectComponent implements OnInit {
     if (character === 'paul') charName = 'Paul Phoenix';
     if (character === 'king') charName = 'King';
     return charName;
+  }
+
+  fight() {
+    // JIN
+    if (this.character1.includes('jin') || this.character2.includes('jin')) {
+      if (this.character1 === this.character2)
+        window.open('https://www.youtube.com/watch?v=zU1tD6Wcy14');
+      if (this.character1.includes('kazuya') || this.character2.includes('kazuya'))
+        window.open('https://www.youtube.com/watch?v=57PUKrQ8tJo');
+      if (this.character1.includes('paul') || this.character2.includes('paul'))
+        window.open('https://www.youtube.com/watch?v=FkZozsJWRro');
+      if (this.character1.includes('king') || this.character2.includes('king'))
+        window.open('https://www.youtube.com/watch?v=c--eJnaftgU');
+    }
+    // KAZUYA
+    if (this.character1.includes('kazuya') || this.character2.includes('kazuya')) {
+      if (this.character1 === this.character2)
+        window.open('https://www.youtube.com/watch?v=wF3GheceUrQ');
+      if (this.character1.includes('paul') || this.character2.includes('paul'))
+        window.open('https://youtu.be/0SNcLm-M-Oc?t=13');
+      if (this.character1.includes('king') || this.character2.includes('king'))
+        window.open('https://youtu.be/2GBql7wWT38');
+    }
+    // PAUL
+    if (this.character1.includes('paul') || this.character2.includes('paul')) {
+      if (this.character1 === this.character2)
+        window.open('https://www.youtube.com/watch?v=uAT7rHydjqQ');
+      if (this.character1.includes('king') || this.character2.includes('king'))
+        window.open('https://www.youtube.com/watch?v=CmwFIR9r-o0');
+    }
+    // KING
+    if (this.character1.includes('king') || this.character2.includes('king')) {
+      if (this.character1 === this.character2)
+        window.open('https://www.youtube.com/watch?v=3kECJiYvljs');
+    }
   }
 
   alert() {
