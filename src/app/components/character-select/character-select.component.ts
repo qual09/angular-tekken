@@ -105,8 +105,4 @@ export class CharacterSelectComponent implements OnInit {
     window.open('https://www.youtube.com/watch?v=kKLCwDg2JLA');
   }
 
-  alert() {
-    console.log(this.currentPlayer);
-  }
-
 }

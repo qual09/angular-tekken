@@ -4,7 +4,7 @@
         <h1>Tekken</h1>
 
         <select [ngClass]="{'selectedRed':currentPlayer==='player1', 'selectedBlue':currentPlayer==='player2'}"
-            (click)="alert()" [(ngModel)]="currentPlayer" name="player">
+            [(ngModel)]="currentPlayer" name="player">
             <option value="player1">Player 1</option>
             <option value="player2">Player 2</option>
         </select>
