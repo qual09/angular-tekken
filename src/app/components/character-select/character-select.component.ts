@@ -65,7 +65,7 @@ export class CharacterSelectComponent implements OnInit {
     return charName;
   }
 
-  fight() {
+  fight(): void {
     // JIN
     if (this.character1.includes('jin') || this.character2.includes('jin')) {
       if (this.character1 === this.character2)
@@ -76,6 +76,7 @@ export class CharacterSelectComponent implements OnInit {
         window.open('https://www.youtube.com/watch?v=FkZozsJWRro');
       if (this.character1.includes('king') || this.character2.includes('king'))
         window.open('https://www.youtube.com/watch?v=c--eJnaftgU');
+      return;
     }
     // KAZUYA
     if (this.character1.includes('kazuya') || this.character2.includes('kazuya')) {
@@ -85,6 +86,7 @@ export class CharacterSelectComponent implements OnInit {
         window.open('https://youtu.be/0SNcLm-M-Oc?t=13');
       if (this.character1.includes('king') || this.character2.includes('king'))
         window.open('https://youtu.be/2GBql7wWT38');
+      return;
     }
     // PAUL
     if (this.character1.includes('paul') || this.character2.includes('paul')) {
@@ -92,12 +94,15 @@ export class CharacterSelectComponent implements OnInit {
         window.open('https://www.youtube.com/watch?v=uAT7rHydjqQ');
       if (this.character1.includes('king') || this.character2.includes('king'))
         window.open('https://www.youtube.com/watch?v=CmwFIR9r-o0');
+      return;
     }
     // KING
     if (this.character1.includes('king') || this.character2.includes('king')) {
       if (this.character1 === this.character2)
         window.open('https://www.youtube.com/watch?v=3kECJiYvljs');
+      return;
     }
+    window.open('https://www.youtube.com/watch?v=kKLCwDg2JLA');
   }
 
   alert() {

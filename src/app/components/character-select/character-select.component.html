@@ -41,6 +41,6 @@
         </ul>
     </div>
 
-    <div *ngIf="character1temp && character2temp" (click)="fight()" class="fight"><button>FIGHT!</button></div>
+    <div class="fight"><button [disabled]="!character1temp || !character2temp" (click)="fight()">FIGHT!</button></div>
 
 </div>

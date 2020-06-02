@@ -4,6 +4,15 @@ body {
     font-family: sans-serif;
 }
 
+button {
+    border: 1px solid transparent;
+}
+
+button:hover {
+    border: 1px solid black;
+    opacity: 0.9;
+}
+
 h1, h2, h3, h4, h5 {
     margin: 0;
 }
