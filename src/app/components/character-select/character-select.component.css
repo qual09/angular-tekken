@@ -28,6 +28,7 @@ select:focus {
 
 .charNames {
     display: flex;
+    margin-top: 20px;
 }
 
 .charNames div {
@@ -42,41 +43,41 @@ select:focus {
     display: flex;
 }
 
-.character2{
+.character2 {
     transform: scaleX(-1);
 }
 
 .characters div {
     border-bottom: 3px black solid;
-    height: 300px;
+    height: 450px;
     width: 50%;
 }
 
 .jin {
-    background-image: url('../../../assets/characters/jin.png');
-    background-position: 40px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.kazuya {
-    background-image: url('../../../assets/characters/kaz.png');
-    background-position: 90px 0px;
-    background-size: 70%;
+    background-image: url('https://i.imgur.com/HaE1xeV.png');
+    background-position: -70px 0px;
+    background-size: 150%;
     background-repeat: no-repeat;
 }
 
 .paul {
-    background-image: url('../../../assets/characters/paul.png');
-    background-position: 10px 0px;
-    background-size: 80%;
+    background-image: url('https://i.imgur.com/N65Qeqn.png');
+    background-position: -110px 0px;
+    background-size: 120%;
     background-repeat: no-repeat;
 }
 
 .king {
-    background-image: url('../../../assets/characters/king.png');
-    background-position: 30px 0px;
-    background-size: 100%;
+    background-image: url('https://i.imgur.com/ee6umcO.png');
+    background-position: -80px 0px;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+.kazuya {
+    background-image: url('https://i.imgur.com/bH1z0Xd.png');
+    background-position: -70px 0px;
+    background-size: 110%;
     background-repeat: no-repeat;
 }
 
@@ -84,7 +85,7 @@ select:focus {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 20px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
 .charList ul a {
@@ -92,10 +93,10 @@ select:focus {
     background-size: cover;
     border: 2px black solid;
     border-radius: 4px;
-    margin: 0px 0px 10px 10px;
-    height: 50px;
     cursor: pointer;
-    width: 50px;
+    height: 70px;
+    margin: 10px 10px 0px 0px;
+    width: 70px;
 }
 
 .charList ul a:nth-child(1) {
@@ -120,17 +121,21 @@ select:focus {
 
 .charList ul a:hover {
     border: 2px white solid;
+    box-shadow: 0 0 20px 0px white;
 }
 
 .selectedRed {
     border: 2px solid red !important;
+    box-shadow: 0 0 20px 0px red;
 }
 
 .selectedBlue {
     border: 2px solid blue !important;
+    box-shadow: 0 0 20px 0px blue;
 }
 
 .selectedBoth {
+    box-shadow: 0 0 20px 0px white;
     border-left: 2px solid blue !important;
     border-top: 2px solid blue !important;
     border-right: 2px solid red !important;
