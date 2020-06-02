@@ -90,7 +90,6 @@ select:focus {
     background-size: 110%;
     background-repeat: no-repeat;
     transition: 0.1s ease;
-
 }
 
 .charList ul {
@@ -109,7 +108,6 @@ select:focus {
     height: 70px;
     margin: 10px 10px 0px 0px;
     transition: 0.5s ease;
-
     width: 70px;
 }
 
@@ -149,7 +147,6 @@ select:focus {
     border: 2px solid blue !important;
     box-shadow: 0 0 20px 0px blue;
     transition: 1s ease;
-
 }
 
 .selectedBoth {
@@ -159,7 +156,6 @@ select:focus {
     border-right: 2px solid red !important;
     border-bottom: 2px solid red !important;
     transition: 1s ease;
-
 }
 
 .fight {
