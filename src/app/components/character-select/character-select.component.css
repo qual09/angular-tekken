@@ -117,22 +117,22 @@ select:focus {
     transition: 0.5s ease;
 }
 
-.charList ul a:nth-child(1) {
+.charList ul a.jinSelect {
     background-image: url('https://tekken7combo.kagewebsite.com/tpl/img/char/jin.jpg');
     background-size: cover;
 }
 
-.charList ul a:nth-child(2) {
+.charList ul a.paulSelect {
     background-image: url('https://store.playstation.com/store/api/chihiro/00_09_000/container/GB/en/999/EP0700-CUSA06014_00-AV00000000000009/1584963561000/image?w=240&h=240&bg_color=000000&opacity=100&_version=00_09_000 ');
     background-size: cover;
 }
 
-.charList ul a:nth-child(3) {
+.charList ul a.kingSelect {
     background-image: url('https://tekken7combo.kagewebsite.com/tpl/img/char/king.jpg');
     background-size: cover;
 }
 
-.charList ul a:nth-child(4) {
+.charList ul a.kazuyaSelect {
     background-image: url('https://qatarfgc.com/tekken-frame-data/icons/kazuya.jpg');
     background-size: cover;
 }
@@ -151,10 +151,10 @@ select:focus {
 
 .selectedBoth {
     box-shadow: 0 0 20px 0px white;
-    border-left: 2px solid blue !important;
     border-top: 2px solid blue !important;
-    border-right: 2px solid red !important;
+    border-right: 2px solid blue !important;
     border-bottom: 2px solid red !important;
+    border-left: 2px solid red !important;
     transition: 1s ease;
 }
 
