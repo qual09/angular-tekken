@@ -16,7 +16,7 @@ import { CharacterSelectComponent } from './components/character-select/characte
   imports: [
     BrowserModule, FormsModule,
     RouterModule.forRoot([
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: '', redirectTo: 'character-select', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
       { path: 'character-select', component: CharacterSelectComponent },
     ]),

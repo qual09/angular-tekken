@@ -14,8 +14,8 @@ ul {
 }
 
 .mainContainer {
-    background-color: yellow;
-    background-image: url('https://cdn.suwalls.com/wallpapers/space/red-nebula-42917-3840x2160.jpg');
+    background-color: #DDDDDD;
+    /* background-image: url('https://cdn.suwalls.com/wallpapers/space/red-nebula-42917-3840x2160.jpg'); */
     background-size: cover;
     height: 100vh;
     margin: 0 auto;

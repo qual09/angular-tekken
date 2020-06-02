@@ -10,14 +10,18 @@
 }
 
 select {
-    padding: 5px 65px;
+    padding: 5px 77px;
     text-transform: uppercase;
+}
+
+select:focus {
+    outline: none;
 }
 
 .title {
     color: white;
     font-size: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -36,6 +40,10 @@ select {
 
 .characters {
     display: flex;
+}
+
+.character2{
+    transform: scaleX(-1);
 }
 
 .characters div {
@@ -60,7 +68,7 @@ select {
 
 .paul {
     background-image: url('../../../assets/characters/paul.png');
-    background-position: 100px 0px;
+    background-position: 10px 0px;
     background-size: 80%;
     background-repeat: no-repeat;
 }
@@ -111,9 +119,20 @@ select {
 }
 
 .charList ul a:hover {
-    border: 2px red solid;
+    border: 2px white solid;
 }
 
-.selected {
+.selectedRed {
     border: 2px solid red !important;
+}
+
+.selectedBlue {
+    border: 2px solid blue !important;
+}
+
+.selectedBoth {
+    border-left: 2px solid blue !important;
+    border-top: 2px solid blue !important;
+    border-right: 2px solid red !important;
+    border-bottom: 2px solid red !important;
 }
