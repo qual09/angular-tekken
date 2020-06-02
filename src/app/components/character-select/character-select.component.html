@@ -1,0 +1,39 @@
+<div class="container">
+
+    <div class="title">
+        <h1>Tekken</h1>
+
+        <select (click)="alert()" [(ngModel)]="currentPlayer" name="player">
+            <option value="player1">Player 1</option>
+            <option value="player2">Player 2</option>
+        </select>
+    </div>
+
+    <div class="charNames">
+        <div class="name1">{{char1Name}}</div>
+        <div class="name2">{{char2Name}}</div>
+    </div>
+
+    <div class="characters">
+        <div [ngClass]="char1"></div>
+        <div [ngClass]="char2"></div>
+    </div>
+
+    <div class="charList">
+        <ul>
+            <a (mouseenter)="select('jin')" [ngClass]="{'selected':char1==='jin'}">
+                <li></li>
+            </a>
+            <a (mouseenter)="select('paul')" [ngClass]="{'selected':char1==='paul'}">
+                <li></li>
+            </a>
+            <a (mouseenter)="select('king')" [ngClass]="{'selected':char1==='king'}">
+                <li></li>
+            </a>
+            <a (mouseenter)="select('kazuya')" [ngClass]="{'selected':char1==='kazuya'}">
+                <li></li>
+            </a>
+        </ul>
+    </div>
+
+</div>
