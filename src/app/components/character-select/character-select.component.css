@@ -8,7 +8,7 @@
     /* height: 100%; */
     margin: 20px auto 10px auto;
     padding: 30px;
-    width: 1150px;
+    width: 1180px;
 }
 
 button {
@@ -53,34 +53,30 @@ button {
 }
 
 .jin {
-    background-image: url('https://i.imgur.com/HaE1xeV.png');
-    background-position: -70px 0px;
-    background-size: 150%;
-    background-repeat: no-repeat;
+    background: url('https://i.imgur.com/HaE1xeV.png') no-repeat center center;
+    background-position: -70px -30px;
+    background-size: 140%;
     transition: 0.1s ease;
 }
 
 .paul {
-    background-image: url('https://i.imgur.com/Mg9SynT.png');
-    background-position: -110px 0px;
-    background-size: 120%;
-    background-repeat: no-repeat;
+    background: url('https://i.imgur.com/Mg9SynT.png') no-repeat center center;
+    background-position: -110px -3px;
+    background-size: cover;
     transition: 0.1s ease;
 }
 
 .king {
-    background-image: url('https://i.imgur.com/ee6umcO.png');
-    background-position: -80px 0px;
-    background-size: 150%;
-    background-repeat: no-repeat;
+    background: url('https://i.imgur.com/ee6umcO.png') no-repeat center center;
+    background-position: -30px -30px;
+    background-size: 135%;
     transition: 0.1s ease;
 }
 
 .kazuya {
-    background-image: url('https://i.imgur.com/bH1z0Xd.png');
-    background-position: -70px 0px;
-    background-size: 110%;
-    background-repeat: no-repeat;
+    background: url('https://i.imgur.com/bH1z0Xd.png') no-repeat center center;
+    background-position: -70px -8px;
+    background-size: cover;
     transition: 0.1s ease;
 }
 
