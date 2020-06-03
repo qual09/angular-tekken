@@ -1,14 +1,13 @@
 .container {
     background: url('https://images8.alphacoders.com/632/thumb-1920-632051.png') no-repeat center center;
     background-size: cover;
-    /* background-position: -100px 0; */
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 0 0 20px 0px black;
     /* height: 100%; */
     margin: 20px auto 10px auto;
-    padding: 30px;
-    width: 1180px;
+    padding: 20px;
+    width: 1200px;
 }
 
 button {
