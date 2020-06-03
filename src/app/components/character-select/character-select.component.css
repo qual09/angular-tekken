@@ -17,15 +17,6 @@ button {
     padding: 10px 100px;
 }
 
-select {
-    padding: 5px 77px;
-    text-transform: uppercase;
-}
-
-select:focus {
-    outline: none;
-}
-
 .title {
     color: white;
     font-size: 30px;
@@ -57,7 +48,7 @@ select:focus {
 
 .characters div {
     border-bottom: 3px black solid;
-    height: 450px;
+    height: 350px;
     width: 50%;
 }
 
@@ -70,7 +61,7 @@ select:focus {
 }
 
 .paul {
-    background-image: url('https://i.imgur.com/N65Qeqn.png');
+    background-image: url('https://i.imgur.com/Mg9SynT.png');
     background-position: -110px 0px;
     background-size: 120%;
     background-repeat: no-repeat;
@@ -136,27 +127,6 @@ select:focus {
 .charList ul a.kazuyaSelect {
     background-image: url('https://qatarfgc.com/tekken-frame-data/icons/kazuya.jpg');
     background-size: cover;
-}
-
-.selectedRed {
-    border: 2px solid red !important;
-    box-shadow: 0 0 20px 0px red;
-    transition: 1s ease;
-}
-
-.selectedBlue {
-    border: 2px solid blue !important;
-    box-shadow: 0 0 20px 0px blue;
-    transition: 1s ease;
-}
-
-.selectedBoth {
-    box-shadow: 0 0 20px 0px white;
-    border-top: 2px solid blue !important;
-    border-right: 2px solid blue !important;
-    border-bottom: 2px solid red !important;
-    border-left: 2px solid red !important;
-    transition: 1s ease;
 }
 
 .fight {

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-character-select',
@@ -16,7 +17,9 @@ export class CharacterSelectComponent implements OnInit {
 
   currentPlayer: string;
 
-  constructor() { }
+  constructor(
+    private router: Router,
+  ) { }
 
   ngOnInit(): void {
     this.currentPlayer = 'player1';
@@ -65,7 +68,11 @@ export class CharacterSelectComponent implements OnInit {
     return charName;
   }
 
-  fight(): void {
+  fight() {
+    this.router.navigate(['/fight-stage'], {queryParams: {character1: this.character1, character2: this.character2}});
+  }
+
+  fightVideo(): void {
     // JIN
     if (this.character1.includes('jin') || this.character2.includes('jin')) {
       if (this.character1 === this.character2)

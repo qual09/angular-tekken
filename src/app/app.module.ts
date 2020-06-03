@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { CharacterSelectComponent } from './components/character-select/character-select.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FightStageComponent } from './components/fight-stage/fight-stage.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     CharacterSelectComponent,
-    FooterComponent
+    FooterComponent,
+    FightStageComponent
   ],
   imports: [
     BrowserModule, FormsModule,
@@ -21,6 +23,7 @@ import { FooterComponent } from './components/footer/footer.component';
       { path: '', redirectTo: 'character-select', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
       { path: 'character-select', component: CharacterSelectComponent },
+      { path: 'fight-stage', component: FightStageComponent },
     ]),
   ],
   providers: [],

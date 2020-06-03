@@ -58,8 +58,13 @@
         </ul>
     </div>
 
-    <div class="fight"><button
+    <div class="fight">
+        <button
             [disabled]="!character1temp || !character2temp || character1temp.includes('unknown') || character2temp.includes('unknown')"
-            (click)="fight()">FIGHT!</button></div>
+            (click)="fightVideo()">FIGHT! (video)</button>
+            <button
+            [disabled]="!character1temp || !character2temp || character1temp.includes('unknown') || character2temp.includes('unknown')"
+            (click)="fight()">FIGHT! (stage)</button>
+    </div>
 
 </div>

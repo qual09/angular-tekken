@@ -1,0 +1,89 @@
+.container {
+    background: url('http://www.game-art-hq.com/wp-content/uploads/KOF-XIII-Southtown-Stage.jpg') no-repeat center center;
+    background-size: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0px black;
+    /* height: 100%; */
+    margin: 30px auto 10px auto;
+    padding: 20px;
+    padding-bottom: 0;
+    width: 1100px;
+}
+
+.title {
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+    text-shadow: black 0 0 2px;
+}
+
+.healthBars {
+    background-color: lavender;
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+}
+
+.p2 {
+    text-align: right;
+}
+
+.healthBars select {
+    margin: 0 10px;
+    padding: 0 15px;
+}
+
+.healthBars div {
+    background-color: lawngreen;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding: 4px;
+    text-transform: uppercase;
+    width: 45.5%;
+}
+
+.characters {
+    display: flex;
+    height: 500px;
+    margin-top: 15px;
+}
+
+.characters div {
+    /* border: 1px solid black; */
+    padding: 10px;
+    width: 50%;
+}
+
+.character2 {
+    transform: scaleX(-1);
+}
+
+.jin {
+    background: url('https://i.imgur.com/YSsg5v9.png') no-repeat center bottom;
+    /* background-position: -70px 0px; */
+    background-size: 90%;
+    transition: 0.1s ease;
+}
+
+.paul {
+    background: url('https://i.imgur.com/Mg9SynT.png') no-repeat center top;
+    /* background-position: -110px 0px; */
+    background-size: 80%;
+    transition: 0.1s ease;
+}
+
+.king {
+    background: url('https://i.imgur.com/ee6umcO.png') no-repeat center top;
+    /* background-position: -80px 0px; */
+    background-size: cover;
+    transition: 0.1s ease;
+}
+
+.kazuya {
+    background: url('https://i.imgur.com/FFuqLoG.png') no-repeat center top;
+    /* background-position: -70px 0px; */
+    background-size: 80%;
+    transition: 0.1s ease;
+}
