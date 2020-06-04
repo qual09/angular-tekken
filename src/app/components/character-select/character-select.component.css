@@ -59,9 +59,9 @@ button {
 }
 
 .paul {
-    background: url('https://i.imgur.com/Mg9SynT.png') no-repeat center center;
-    background-position: -110px -3px;
-    background-size: cover;
+    background: url('https://i.imgur.com/SAPLUxb.png') no-repeat center center;
+    background-position: -170px -20px;
+    background-size: 150%;
     transition: 0.1s ease;
 }
 
