@@ -1,67 +1,67 @@
 body {
-    background-color: #EEEEEE;
-    margin: 0;
-    font-family: sans-serif;
+  background-color: #EEEEEE;
+  margin: 0;
+  font-family: sans-serif;
 }
 
 button {
-    border: 1px solid transparent;
+  border: 1px solid transparent;
 }
 
 button:hover {
-    border: 1px solid black;
-    cursor: pointer;
-    opacity: 0.9;
+  border: 1px solid black;
+  cursor: pointer;
+  opacity: 0.9;
 }
 
 button:disabled {
-    cursor: initial;
+  cursor: initial;
 }
 
 h1, h2, h3, h4, h5 {
-    margin: 0;
+  margin: 0;
 }
 
 select {
-    padding: 5px 77px;
-    text-transform: uppercase;
+  padding: 5px 77px;
+  text-transform: uppercase;
 }
 
 select:focus {
-    outline: none;
+  outline: none;
 }
 
 ul {
-    padding: 0;
-    list-style: none;
+  padding: 0;
+  list-style: none;
 }
 
 .mainContainer {
-    /* background-image: url('https://cdn.suwalls.com/wallpapers/space/red-nebula-42917-3840x2160.jpg'); */
-    background-size: cover;
-    height: 100vh;
-    margin: 0 auto;
-    position: absolute;
-    width: 100%;
+  /* background-image: url('https://cdn.suwalls.com/wallpapers/space/red-nebula-42917-3840x2160.jpg'); */
+  background-size: cover;
+  height: 100vh;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
 }
 
 .selectedRed {
-    border: 2px solid red !important;
-    box-shadow: 0 0 20px 0px red;
-    transition: 1s ease;
+  border: 2px solid red !important;
+  box-shadow: 0 0 20px 0px red;
+  transition: 1s ease;
 }
 
 .selectedBlue {
-    border: 2px solid blue !important;
-    box-shadow: 0 0 20px 0px blue;
-    transition: 1s ease;
+  border: 2px solid blue !important;
+  box-shadow: 0 0 20px 0px blue;
+  transition: 1s ease;
 }
 
 .selectedBoth {
-    box-shadow: 0 0 20px 0px white;
-    border-top: 2px solid blue !important;
-    border-right: 2px solid blue !important;
-    border-bottom: 2px solid red !important;
-    border-left: 2px solid red !important;
-    transition: 1s ease;
+  box-shadow: 0 0 20px 0px white;
+  border-top: 2px solid blue !important;
+  border-right: 2px solid blue !important;
+  border-bottom: 2px solid red !important;
+  border-left: 2px solid red !important;
+  transition: 1s ease;
 }
