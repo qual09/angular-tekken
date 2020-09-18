@@ -1,70 +1,69 @@
 <div class="container">
 
-    <div class="title">
-        <h1>Tekken</h1>
+  <div class="title">
+    <h1>Tekken</h1>
 
-        <select [ngClass]="{'selectedRed':currentPlayer==='player1', 'selectedBlue':currentPlayer==='player2'}"
-            [(ngModel)]="currentPlayer" name="player">
-            <option value="player1">Player 1</option>
-            <option value="player2">Player 2</option>
-        </select>
-    </div>
+    <select [ngClass]="{'selectedRed':currentPlayer==='player1', 'selectedBlue':currentPlayer==='player2'}"
+      [(ngModel)]="currentPlayer" name="player">
+      <option value="player1">Player 1</option>
+      <option value="player2">Player 2</option>
+    </select>
+  </div>
 
-    <div class="charNames">
-        <div>{{char1Name}}</div>
-        <div>{{char2Name}}</div>
-    </div>
+  <div class="charNames">
+    <div>{{char1Name}}</div>
+    <div>{{char2Name}}</div>
+  </div>
 
-    <div class="characters">
-        <div class="character1" [ngClass]="character1"></div>
-        <div class="character2" [ngClass]="character2"></div>
-    </div>
+  <div class="characters">
+    <div class="character1" [ngClass]="character1"></div>
+    <div class="character2" [ngClass]="character2"></div>
+  </div>
 
-    <div class="charList">
-        <ul>
-            <a class="" (click)="select('unknown1')" (mouseenter)="preview('unknown1')" (mouseleave)="endPreview()"
-                [ngClass]="{'selectedRed':character1temp==='unknown1', 'selectedBlue':character2temp==='unknown1', 'selectedBoth': (character1temp==character2temp&&character1temp==='unknown1')}">
-                <li></li>
-            </a>
-            <a class="" (click)="select('unknown3')" (mouseenter)="preview('unknown3')" (mouseleave)="endPreview()"
-                [ngClass]="{'selectedRed':character1temp==='unknown3', 'selectedBlue':character2temp==='unknown3', 'selectedBoth': (character1temp==character2temp&&character1temp==='unknown3')}">
-                <li></li>
-            </a>
-            <a class="jinSelect" (click)="select('jin')" (mouseenter)="preview('jin')" (mouseleave)="endPreview()"
-                [ngClass]="{'selectedRed':character1temp==='jin', 'selectedBlue':character2temp==='jin', 'selectedBoth': (character1temp==character2temp&&character1temp==='jin')}">
-                <li></li>
-            </a>
-            <a class="paulSelect" (click)="select('paul')" (mouseenter)="preview('paul')" (mouseleave)="endPreview()"
-                [ngClass]="{'selectedRed':character1temp==='paul', 'selectedBlue':character2temp==='paul', 'selectedBoth': (character1temp==character2temp&&character1temp==='paul')}">
-                <li></li>
-            </a>
-            <a class="kingSelect" (click)="select('king')" (mouseover)="preview('king')" (mouseleave)="endPreview()"
-                [ngClass]="{'selectedRed':character1temp==='king', 'selectedBlue':character2temp==='king', 'selectedBoth': (character1temp==character2temp&&character1temp==='king')}">
-                <li></li>
-            </a>
-            <a class="kazuyaSelect" (click)="select('kazuya')" (mouseover)="preview('kazuya')"
-                (mouseleave)="endPreview()"
-                [ngClass]="{'selectedRed':character1temp==='kazuya', 'selectedBlue':character2temp==='kazuya', 'selectedBoth': (character1temp==character2temp&&character1temp==='kazuya')}">
-                <li></li>
-            </a>
-            <a class="" (click)="select('unknown2')" (mouseenter)="preview('unknown2')" (mouseleave)="endPreview()"
-                [ngClass]="{'selectedRed':character1temp==='unknown2', 'selectedBlue':character2temp==='unknown2', 'selectedBoth': (character1temp==character2temp&&character1temp==='unknown2')}">
-                <li></li>
-            </a>
-            <a class="" (click)="select('unknown4')" (mouseenter)="preview('unknown4')" (mouseleave)="endPreview()"
-                [ngClass]="{'selectedRed':character1temp==='unknown4', 'selectedBlue':character2temp==='unknown4', 'selectedBoth': (character1temp==character2temp&&character1temp==='unknown4')}">
-                <li></li>
-            </a>
-        </ul>
-    </div>
+  <div class="charList">
+    <ul>
+      <a class="" (click)="select('unknown1')" (mouseenter)="preview('unknown1')" (mouseleave)="endPreview()"
+        [ngClass]="{'selectedRed':character1temp==='unknown1', 'selectedBlue':character2temp==='unknown1', 'selectedBoth': (character1temp==character2temp&&character1temp==='unknown1')}">
+        <li></li>
+      </a>
+      <a class="" (click)="select('unknown3')" (mouseenter)="preview('unknown3')" (mouseleave)="endPreview()"
+        [ngClass]="{'selectedRed':character1temp==='unknown3', 'selectedBlue':character2temp==='unknown3', 'selectedBoth': (character1temp==character2temp&&character1temp==='unknown3')}">
+        <li></li>
+      </a>
+      <a class="jinSelect" (click)="select('jin')" (mouseenter)="preview('jin')" (mouseleave)="endPreview()"
+        [ngClass]="{'selectedRed':character1temp==='jin', 'selectedBlue':character2temp==='jin', 'selectedBoth': (character1temp==character2temp&&character1temp==='jin')}">
+        <li></li>
+      </a>
+      <a class="paulSelect" (click)="select('paul')" (mouseenter)="preview('paul')" (mouseleave)="endPreview()"
+        [ngClass]="{'selectedRed':character1temp==='paul', 'selectedBlue':character2temp==='paul', 'selectedBoth': (character1temp==character2temp&&character1temp==='paul')}">
+        <li></li>
+      </a>
+      <a class="kingSelect" (click)="select('king')" (mouseover)="preview('king')" (mouseleave)="endPreview()"
+        [ngClass]="{'selectedRed':character1temp==='king', 'selectedBlue':character2temp==='king', 'selectedBoth': (character1temp==character2temp&&character1temp==='king')}">
+        <li></li>
+      </a>
+      <a class="kazuyaSelect" (click)="select('kazuya')" (mouseover)="preview('kazuya')" (mouseleave)="endPreview()"
+        [ngClass]="{'selectedRed':character1temp==='kazuya', 'selectedBlue':character2temp==='kazuya', 'selectedBoth': (character1temp==character2temp&&character1temp==='kazuya')}">
+        <li></li>
+      </a>
+      <a class="" (click)="select('unknown2')" (mouseenter)="preview('unknown2')" (mouseleave)="endPreview()"
+        [ngClass]="{'selectedRed':character1temp==='unknown2', 'selectedBlue':character2temp==='unknown2', 'selectedBoth': (character1temp==character2temp&&character1temp==='unknown2')}">
+        <li></li>
+      </a>
+      <a class="" (click)="select('unknown4')" (mouseenter)="preview('unknown4')" (mouseleave)="endPreview()"
+        [ngClass]="{'selectedRed':character1temp==='unknown4', 'selectedBlue':character2temp==='unknown4', 'selectedBoth': (character1temp==character2temp&&character1temp==='unknown4')}">
+        <li></li>
+      </a>
+    </ul>
+  </div>
 
-    <div class="fight">
-        <button
-            [disabled]="!character1temp || !character2temp || character1temp.includes('unknown') || character2temp.includes('unknown')"
-            (click)="fightVideo()">FIGHT! (video)</button>
-            <button
-            [disabled]="!character1temp || !character2temp || character1temp.includes('unknown') || character2temp.includes('unknown')"
-            (click)="fight()">FIGHT! (stage)</button>
-    </div>
+  <div class="fight">
+    <button
+      [disabled]="!character1temp || !character2temp || character1temp.includes('unknown') || character2temp.includes('unknown')"
+      (click)="fightVideo()">FIGHT! (video)</button>
+    <!-- <button
+      [disabled]="!character1temp || !character2temp || character1temp.includes('unknown') || character2temp.includes('unknown')"
+      (click)="fight()">FIGHT! (stage)</button> -->
+  </div>
 
 </div>

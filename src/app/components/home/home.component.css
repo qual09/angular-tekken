@@ -1,14 +1,16 @@
 .menu {
-    color: white;
-    font-size: 3em;
-    text-align: center;
+  color: white;
+  font-size: 3em;
+  text-align: center;
 }
 
 .menu a {
-    color: white;
-    text-decoration: none;;
+  color: white;
+  text-decoration: none;
+  ;
 }
 
 .menu a:hover {
-    text-decoration: underline;;
+  text-decoration: underline;
+  ;
 }

@@ -69,7 +69,7 @@ export class CharacterSelectComponent implements OnInit {
   }
 
   fight() {
-    this.router.navigate(['/fight-stage'], {queryParams: {character1: this.character1, character2: this.character2}});
+    this.router.navigate(['/fight-stage'], { queryParams: { character1: this.character1, character2: this.character2 } });
   }
 
   fightVideo(): void {
